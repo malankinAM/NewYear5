@@ -356,7 +356,13 @@ p {
 }
 
 @media (max-width: 479px) {
-  .card-page__text{
+/*   .card-page__text{
     display: none;
+  } */
+    .card-page__title{
+    font-size: 10px;
+  }
+  p {
+    font-size: 8px;
   }
 }
